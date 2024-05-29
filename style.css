@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    gap: 20px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+.menu-headline{
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 200%;
+    cursor: pointer;
+}
+.nav-section{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 20px;
+    gap: 20px;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.nav-li:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgba(219, 207, 190, 0.208);
+}
+
+.nav-section img {
+    width: 15px;
+    padding-right: 10px;
+}
+/* ________________ */
+
+.desktop-version{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+.middle-section{
+    margin-top: 70px;
+}
+.middle-top a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.for-you{
+    margin-right: 8px;
+    color: black;
+}
+.gefolgt{
+    color: rgba(0, 0, 0, 0.5);
+}
+.middle-section hr{
+    width: 650px;
+}
+
+.middle-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.story img {
+    cursor: pointer;
+    object-fit: cover;
+    height: 55px;
+    width: 55px;
+    border-radius: 35px;
+    padding: 2px;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right top, #FFC801, #D301C5) border-box;;
+}
+.story{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.story small{
+    font-size: 10px;
+}
+/* __________ */
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    align-items: flex-start;
+    margin-top: 76px;
+    padding-left: 70px;
+    gap: 20px;
+}
+.right-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-top img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.right-top a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(20, 132, 230);
+    cursor: pointer;
+}
+.light-gray{
+    color: rgb(159, 158, 158);
+}
+.right-top-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 60px;
+}
+.right-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 170px;
+}
+.right-middle small{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* _______________________ */
+.myPost-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myPost{
+    margin-bottom: 0px;
+}
+.myPost hr {
+    width: 500px;
+}
+.myPost-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.myPost-name{
+    display: flex;
+    flex-direction: column;
+}
+.myPost-profImg{
+    object-fit: cover;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+.myPost-postImg{
+    width: 500px;
+}
+.myPost-input{
+    margin-top: 10px;
+    border: none;
+}
+.myPost-description{
+    gap: 20px;
+}
